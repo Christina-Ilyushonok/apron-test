@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "gender": "FEMALE",
+      "age": 46,
+      "id": "a0ce",
+      "lastName": "Martinez",
+      "firstName": "Laura"
+    },
+    {
+      "id": "y8kl",
+      "gender": "MALE",
+      "age": 32,
+      "lastName": "Williams",
+      "firstName": "David"
+    }
+  ]
+}

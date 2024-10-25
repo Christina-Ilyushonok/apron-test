@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Champ';
+  src: url('./assets/fonts/Champ.ttf') format("truetype")
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('./assets/fonts/DMSans.ttf') format("truetype")
+}
+
+html {
+  height: 100%;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +18,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
-
+#root {
+  height: 100%;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.ant-table-cell {
+  background: transparent !important;
+}
+
+.ant-table-cell::before {
+  border-bottom: none !important;
+  background-color:  transparent  !important;
+}
+
+.ant-message-notice-content {
+  background: black !important;
+  color: white 
 }
